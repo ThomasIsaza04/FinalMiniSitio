@@ -1,10 +1,10 @@
-# 🌐 MiniSitio - Semana 3 SENA
+# MiniSitio - Semana 3 SENA
 
 Mini-sitio web para práctica de Issues, Kanban y Trazabilidad
 
 ---
 
-## Descripción
+# Descripción
 
 Proyecto educativo del **SENA - Programa ADSO** que implementa:
 - Control de versiones con **Git y GitHub**
@@ -14,21 +14,21 @@ Proyecto educativo del **SENA - Programa ADSO** que implementa:
 
 ---
 
-## Instalación y Uso
+# Instalación y Uso
 
-### 1. Clonar el repositorio
+# 1. Clonar el repositorio
 ```bash
 git clone https://github.com/ThomasIsaza04/FinalMiniSitio.git
 cd FinalMiniSitio
 ```
 
-### Abrir el sitio
+# Abrir el sitio
 
 Simplemente abre el archivo `index.html` en tu navegador favorito.
 
 ---
 
-## Estructura del Proyecto
+# Estructura del Proyecto
 ```
 MiniSitio/
 ├── index.html      # Página principal del sitio
@@ -39,16 +39,16 @@ MiniSitio/
 
 ---
 
-## Funcionalidades
+# Funcionalidades
 
-- ✅ Botón interactivo "Enviar mensaje"
-- ✅ Navegación responsive con header
-- ✅ Footer con información del desarrollador
-- ✅ Mensaje de confirmación al enviar
+- Botón interactivo "Enviar mensaje"
+- Navegación responsive con header
+- Footer con información del desarrollador
+- Mensaje de confirmación al enviar
 
 ---
 
-## Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
 - **HTML5** - Estructura
 - **CSS3** - Estilos
@@ -57,7 +57,7 @@ MiniSitio/
 
 ---
 
-## Autor
+# Autor
 
 **Thomas Isaza Chalarca**  
 Programa: Análisis y Desarrollo de Software (ADSO)  
@@ -65,17 +65,17 @@ Institución: SENA - Centro de Tecnología de la Manufactura Avanzada (CTMA)
 
 ---
 
-## Evidencias del Proyecto
+# Evidencias del Proyecto
 
 Este proyecto incluye:
-1. ✅ Issues correctamente formulados con criterios Given/When/Then
-2. ✅ Tablero Kanban para gestión visual del trabajo
-3. ✅ Trazabilidad completa mediante Pull Requests vinculados
-4. ✅ Cierre automático de Issues con palabra clave `closes #id`
+1. Issues correctamente formulados con criterios Given/When/Then
+2. Tablero Kanban para gestión visual del trabajo
+3. Trazabilidad completa mediante Pull Requests vinculados
+4. Cierre automático de Issues con palabra clave `closes #id`
 
 ---
 
-## 📚 Aprendizajes Clave
+# Aprendizajes Clave
 
 - Creación de Issues accionables con estructura profesional
 - Uso de labels, assignees y milestones
