@@ -1,5 +1,19 @@
 ## Descripción
-<!-- Explica qué cambios introduces y por qué son necesarios -->
+Estructura HTML de Sección de Contacto
+
+Qué se agregó: Una sección completa <section id="contacto"> con título, descripción y formulario
+Archivos modificados: index.html
+
+2. Formulario Funcional
+
+Qué se agregó:
+
+Campo de texto para nombre
+Campo de email con validación
+Área de texto para mensaje
+Botón de envío
+Atributo required en todos los campos para validación básica
+
 
 ## Evidencia
 <!-- Incluye capturas de pantalla o enlaces que muestren el resultado -->
@@ -12,5 +26,5 @@
 - [ ] Sin secretos (archivos .env, tokens, contraseñas)
 
 ## Referencias
-<!-- Vincula issues relacionados -->
+<!-- N/A - Desarrollo de funcionalidad inicial del proyecto. -->
 Relates to #
