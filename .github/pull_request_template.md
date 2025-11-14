@@ -4,7 +4,7 @@ Estructura HTML de Sección de Contacto
 Qué se agregó: Una sección completa <section id="contacto"> con título, descripción y formulario
 Archivos modificados: index.html
 
-2. Formulario Funcional
+Formulario Funcional
 
 Qué se agregó:
 
