@@ -23,20 +23,32 @@ document.addEventListener("DOMContentLoaded", () => {
 function validarFormulario(e) {
     e.preventDefault();
     
-    var nombre = document.getElementById('nombre').value;
-    var email = document.getElementById('email').value;
-    var mensaje = document.getElementById('mensaje').value;
+   const nombre = document.getElementById('nombre').value;
+    const email = document.getElementById('email').value;
+    const mensaje = document.getElementById('mensaje').value;
+    
+    // Validación de campos vacíos
+    if (!nombre.trim() || !email.trim() || !mensaje.trim()) {
+        alert('Por favor, completa todos los campos');
+        return;
+    }
+    
+    // Validación adicional de email
+    if (!email.includes('@')) {
+        alert('Por favor, ingresa un email válido');
+        return;
+    }
     
     // Procesar formulario
-    console.log('Nombre:', nombre.toUpperCase());
-    console.log('Email:', email);
-    console.log('Mensaje:', mensaje);
+    console.log('Nombre:', nombre.trim().toUpperCase());
+    console.log('Email:', email.trim());
+    console.log('Mensaje:', mensaje.trim());
     
     alert('Formulario enviado correctamente');
 }
 
 // Event listener para el formulario
-var formulario = document.getElementById('formularioContacto');
+const formulario = document.getElementById('formularioContacto');
 if (formulario) {
     formulario.addEventListener('submit', validarFormulario);
 }
